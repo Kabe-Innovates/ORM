@@ -23,6 +23,8 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+### Develoed by : **KABELAN G K**
+### Reg no : **212224110027**
 ### admin.py
 ```
 from django.contrib import admin
