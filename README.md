@@ -5,7 +5,7 @@
 To develop a Django application to store and retrieve data from Movies Database using Object Relational Mapping(ORM).
 
 ## ENTITY RELATIONSHIP DIAGRAM
-![alt text](<ER DIAGRAM.jpg>)
+![ER_DIAGRAM](image.png)
 
 
 ## DESIGN STEPS
@@ -26,13 +26,13 @@ Execute Django admin and create details for 10 books
 ### Develoed by : **KABELAN G K**
 ### Reg no : **212224110027**
 ### admin.py
-```
+```python
 from django.contrib import admin
 from .models import Movie,MovieAdmin
 admin.site.register(Movie,MovieAdmin)
 ```
 ### models.py
-```
+```python
 from django.db import models
 from django.contrib import admin
 class Movie(models.Model):
